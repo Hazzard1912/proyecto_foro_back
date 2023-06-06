@@ -56,10 +56,75 @@ class Server {
       "regular",
       "gratuito"
     );
-    await crearForo("Foro 1", 20, 40, fecha, "test");
+    await crearForo("general", 20, 40, fecha, "test");
     await crearForo("presentate", 20, 40, fecha, "segundo");
-    await crearForo("discusiones generales", 20, 40, fecha, "test");
-    await crearPublicacion("test", "Estoy testeando nomas", "test", fecha, 1);
+    await crearForo("preguntas-y-respuestas", 20, 40, fecha, "test");
+    await crearPublicacion(
+      "test",
+      "Estoy testeando nomas",
+      "test",
+      10,
+      50,
+      "test2",
+      fecha,
+      fecha,
+      1
+    );
+    await crearPublicacion(
+      "test",
+      "Estoy testeando nomas",
+      "test",
+      10,
+      50,
+      "test2",
+      fecha,
+      fecha,
+      2
+    );
+    await crearPublicacion(
+      "test",
+      "Estoy testeando nomas",
+      "test",
+      10,
+      50,
+      "test2",
+      fecha,
+      fecha,
+      3
+    );
+    await crearPublicacion(
+      "test",
+      "Estoy testeando nomas",
+      "test",
+      10,
+      50,
+      "test2",
+      fecha,
+      fecha,
+      1
+    );
+    await crearPublicacion(
+      "test",
+      "Estoy testeando nomas",
+      "test",
+      10,
+      50,
+      "test2",
+      fecha,
+      fecha,
+      1
+    );
+    await crearPublicacion(
+      "test",
+      "Estoy testeando nomas",
+      "test",
+      10,
+      50,
+      "test2",
+      fecha,
+      fecha,
+      1
+    );
   }
 
   startPort() {

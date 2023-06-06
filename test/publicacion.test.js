@@ -4,6 +4,10 @@ const crearPublicacion = async (
   titulo,
   contenido,
   autor,
+  respuestas,
+  vistas,
+  ultimoUsuario,
+  fechaUltimoComentario,
   fechaCreacion,
   foroId
 ) => {
@@ -11,6 +15,10 @@ const crearPublicacion = async (
     titulo,
     contenido,
     autor,
+    respuestas,
+    vistas,
+    ultimoUsuario,
+    fechaUltimoComentario,
     fechaCreacion,
     foroId,
   });

@@ -20,6 +20,22 @@ const Publicacion = sequelize.define("Publicacion", {
     type: DataTypes.STRING,
     allowNull: false,
   },
+  respuestas: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
+  vistas: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
+  ultimoUsuario: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  fechaUltimoComentario: {
+    type: DataTypes.DATE,
+    allowNull: false,
+  },
   fechaCreacion: {
     type: DataTypes.DATE,
     allowNull: false,
