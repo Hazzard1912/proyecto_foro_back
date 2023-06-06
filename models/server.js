@@ -52,11 +52,11 @@ class Server {
       "segundo",
       "test2@test.com",
       "123456",
-      "https://cdni.pornpics.com/1280/7/629/55722047/55722047_152_4241.jpg",
+      "S",
       "regular",
       "gratuito"
     );
-    await crearForo("cuckold", 20, 40, fecha, "test");
+    await crearForo("Foro 1", 20, 40, fecha, "test");
     await crearForo("presentate", 20, 40, fecha, "segundo");
     await crearForo("discusiones generales", 20, 40, fecha, "test");
     await crearPublicacion("test", "Estoy testeando nomas", "test", fecha, 1);
